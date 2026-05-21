@@ -1,0 +1,102 @@
+{
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "app_key" : "application.generated.unity.sableoverlayprogram.exe",
+   "bindings" : {
+      "/actions/buggy" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : []
+      },
+      "/actions/default" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : []
+      },
+      "/actions/platformer" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : []
+      },
+      "/actions/sableinputs" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/sableinputs/in/left_a"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/a"
+            },
+            {
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/sableinputs/in/right_analog_stick"
+                  }
+               },
+               "mode" : "joystick",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/sableinputs/in/right_trigger_click"
+                  },
+                  "pull" : {
+                     "output" : "/actions/sableinputs/in/right_trigger"
+                  }
+               },
+               "mode" : "trigger",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "grab" : {
+                     "output" : "/actions/sableinputs/in/left_grip_pressed"
+                  }
+               },
+               "mode" : "grab",
+               "parameters" : {
+                  "value_hold_threshold" : "1.75",
+                  "value_release_threshold" : "1.6"
+               },
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "grab" : {
+                     "output" : "/actions/sableinputs/in/right_grip_pressed"
+                  }
+               },
+               "mode" : "grab",
+               "parameters" : {
+                  "value_hold_threshold" : "1.75",
+                  "value_release_threshold" : "1.6"
+               },
+               "path" : "/user/hand/right/input/grip"
+            }
+         ]
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "knuckles",
+   "description" : "",
+   "interaction_profile" : "",
+   "name" : "knuckles_default",
+   "options" : {},
+   "simulated_actions" : []
+}

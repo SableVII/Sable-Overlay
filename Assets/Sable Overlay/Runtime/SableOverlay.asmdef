@@ -1,0 +1,21 @@
+{
+    "name": "SableOverlay",
+    "rootNamespace": "",
+    "references": [
+        "SteamVR",
+        "SteamVR_Actions",
+        "Unity.XR.OpenVR",
+        "OscCore.Runtime",
+        "Unity.TextMeshPro",
+        "BlobHandles.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

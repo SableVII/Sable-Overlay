@@ -1,0 +1,23 @@
+{
+  "ModuleName": "Boundary Module",
+  "Settings": {
+    "BoundariesEnabled": "True",
+    "ShowWalls": "True",
+    "WallsAlwaysOn": "False",
+    "ShowFloor": "True",
+    "FloorAlwaysOn": "True",
+    "BoundaryColor": "RGBA(0.392, 0.839, 0.929, 1.000)",
+    "BoundaryLineWidth": "5",
+    "BoundaryLineBorderSize": "1",
+    "BoundaryLineBorderColor": "RGBA(0.000, 0.129, 1.000, 1.000)",
+    "BoundaryHeight": "0.3277433",
+    "ShowMiddleWallLine": "True",
+    "BoundaryMiddleLineRatio": "0.5028672",
+    "DistanceSensitivity": "0.5",
+    "CenterMarkerEnabled": "True",
+    "CenterMarkerSharesBoundaryColor": "True",
+    "CenterMarkerColor": "RGBA(0.180, 1.000, 0.816, 0.180)",
+    "CenterMarkerScale": "0.09870359",
+    "DropCenterMarkerEnabled": "True"
+  }
+}

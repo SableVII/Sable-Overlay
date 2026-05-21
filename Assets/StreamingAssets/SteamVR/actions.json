@@ -1,0 +1,93 @@
+{
+  "actions": [
+    {
+      "name": "/actions/SableInputs/in/left_a",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/SableInputs/in/right_analog_stick",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/SableInputs/in/right_trigger",
+      "type": "vector1"
+    },
+    {
+      "name": "/actions/SableInputs/in/right_trigger_click",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/SableInputs/in/right_analog_center",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/SableInputs/in/left_grip_pressed",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/SableInputs/in/right_grip_pressed",
+      "type": "boolean"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/SableInputs",
+      "usage": "leftright"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "bindings_vive_controller.json"
+    },
+    {
+      "controller_type": "oculus_touch",
+      "binding_url": "bindings_oculus_touch.json"
+    },
+    {
+      "controller_type": "knuckles",
+      "binding_url": "bindings_knuckles.json"
+    },
+    {
+      "controller_type": "holographic_controller",
+      "binding_url": "bindings_holographic_controller.json"
+    },
+    {
+      "controller_type": "vive_cosmos_controller",
+      "binding_url": "bindings_vive_cosmos_controller.json"
+    },
+    {
+      "controller_type": "logitech_stylus",
+      "binding_url": "bindings_logitech_stylus.json"
+    },
+    {
+      "controller_type": "vive_cosmos",
+      "binding_url": "binding_vive_cosmos.json"
+    },
+    {
+      "controller_type": "vive",
+      "binding_url": "binding_vive.json"
+    },
+    {
+      "controller_type": "indexhmd",
+      "binding_url": "binding_index_hmd.json"
+    },
+    {
+      "controller_type": "vive_pro",
+      "binding_url": "binding_vive_pro.json"
+    },
+    {
+      "controller_type": "rift",
+      "binding_url": "binding_rift.json"
+    },
+    {
+      "controller_type": "holographic_hmd",
+      "binding_url": "binding_holographic_hmd.json"
+    },
+    {
+      "controller_type": "vive_tracker_camera",
+      "binding_url": "binding_vive_tracker_camera.json"
+    }
+  ],
+  "localization": []
+}
